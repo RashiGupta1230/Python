@@ -1,0 +1,8 @@
+N = int(input("Enter size of array: "))
+A = list(map(int, input("Enter array elements: ").split()))
+maxsum = A[0]
+cursum = A[0]
+for i in range(1, N):
+    cursum = max(A[i], cursum + A[i])
+    maxsum = max(maxsum, cursum)
+print(maxsum)

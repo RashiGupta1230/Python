@@ -1,0 +1,7 @@
+N = int(input("Enter size of array"))
+A = list(map(int, input("Enter array elements").split()))
+L, R = map(int, input("Enter L and R").split())
+sum_sub = 0
+for i in range(L - 1, R):
+    sum_sub += A[i]
+print(sum_sub)

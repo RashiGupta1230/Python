@@ -1,0 +1,7 @@
+N = int(input())
+A = list(map(int, input().split()))
+for i in range(N):
+    for j in range(i, N):
+        for k in range(i, j + 1):
+            print(A[k], end=" ")
+        print()

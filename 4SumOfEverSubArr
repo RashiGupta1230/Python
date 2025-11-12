@@ -1,0 +1,7 @@
+N = int(input("Enter size of arr"))
+A = list(map(int, input("Enter array element").split()))
+for i in range(N):
+    curr_sum = 0
+    for j in range(i, N):
+        curr_sum += A[j]
+        print(curr_sum)
