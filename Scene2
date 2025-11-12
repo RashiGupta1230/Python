@@ -1,0 +1,9 @@
+n = int(input("Enter number of employee IDs: "))
+ids = list(map(int, input("Enter IDs: ").split()))
+found = False
+for i in ids:
+    if i % 2 == 0:
+        print(i, end=" ")
+        found = True
+if not found:
+    print(-1)

@@ -1,0 +1,10 @@
+n = int(input("Enter number of students: "))
+marks = list(map(int, input("Enter marks: ").split()))
+passed = 0
+failed = 0
+for m in marks:
+    if m >= 35:
+        passed += 1
+    else:
+        failed += 1
+print(passed, failed)

@@ -1,0 +1,15 @@
+n = int(input("Enter number of gift codes: "))
+codes = list(map(int, input("Enter codes: ").split()))
+unique = []
+for i in range(n):
+    count = 0
+    for j in range(n):
+        if codes[i] == codes[j]:
+            count += 1
+    if count == 1:
+        unique.append(codes[i])
+if len(unique) == 0:
+    print(-1)
+else:
+    for u in unique:
+        print(u, end=" ")

@@ -1,0 +1,11 @@
+n = int(input("Enter number of days: "))
+temps = list(map(int, input("Enter temperatures: ").split()))
+total = 0
+for t in temps:
+    total += t
+avg = total / n
+count = 0
+for t in temps:
+    if t > avg:
+        count += 1
+print(count)

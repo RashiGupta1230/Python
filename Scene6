@@ -1,0 +1,12 @@
+n = int(input("Enter number of students: "))
+attendance = list(map(int, input("Enter attendance (0/1): ").split()))
+maxstreak = 0
+currentstreak = 0
+for a in attendance:
+    if a == 0:
+        currentstreak += 1
+        if currentstreak > maxstreak:
+            maxstreak = currentstreak
+    else:
+        currentstreak = 0
+print(maxstreak)

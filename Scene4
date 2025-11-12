@@ -1,0 +1,7 @@
+n = int(input("Enter number of students: "))
+eligible = 0
+for i in range(n):
+    marks, attendance = map(int, input("Enter marks and attendance: ").split())
+    if marks >= 75 and attendance >= 80:
+        eligible += 1
+print(eligible)
