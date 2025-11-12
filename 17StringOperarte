@@ -1,0 +1,10 @@
+A = input()
+A = A + A
+result = ""
+for ch in A:
+    if not ch.isupper():
+        if ch in 'aeiou':
+            result += '#'
+        else:
+            result += ch
+print(result)
