@@ -1,0 +1,14 @@
+s = "Everything is not suppose to be funny"
+print(s.split())     
+
+s = "BLA-BLA-BLA not nonsense its company cab"
+print(s.split("-"))   
+
+word = 'Stupity:Is:Fun'
+print(word.split(':')) 
+
+t = "23456"
+print(t.split())    
+
+t = "2345"
+print(t.split())      

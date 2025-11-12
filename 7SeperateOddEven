@@ -1,0 +1,9 @@
+A = list(map(int, input().split()))
+print("Odd elements:")
+for i in A:
+    if i % 2 != 0:
+        print(i, end=" ")
+print("\nEven elements:")
+for i in A:
+    if i % 2 == 0:
+        print(i, end=" ")

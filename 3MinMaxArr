@@ -1,0 +1,9 @@
+A = list(map(int, input().split()))
+MaxA= A[0]
+minA = A[0]
+for i in A:
+    if i > maxA:
+        maxA = i
+    if i < minA:
+        minA = i
+print("Max:", maxA, "Min:", minA)

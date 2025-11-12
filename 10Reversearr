@@ -1,0 +1,5 @@
+A = list(map(int, input().split()))
+re = []
+for i in range(len(A)-1, -1, -1):
+    re.append(A[i])
+print("ReverseArr", re)

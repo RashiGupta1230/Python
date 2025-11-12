@@ -1,0 +1,4 @@
+A = [1.4, 2, 3, 4, 5, 'ABC']
+A.reverse()
+print(A)
+

@@ -1,0 +1,6 @@
+N = list(map(int, input().split()))
+M = int(input())
+Arr = []
+for i in N:
+    Arr.append(i + M)
+print("New Array:", Arr)

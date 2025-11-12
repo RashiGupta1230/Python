@@ -1,0 +1,7 @@
+A = list(map(int, input().split()))
+B = int(input())
+found = 0
+for i in A:
+    if i == B:
+        found = 1
+print(found)
