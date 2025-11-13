@@ -1,0 +1,6 @@
+def digisum(n):
+    if n == 0:
+        return 0
+    return (n % 10) + digisum(n // 10)
+n = int(input())
+print( digisum(n))
