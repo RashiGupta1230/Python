@@ -1,5 +1,5 @@
 Sheets of Python Available in branches.
-1nSolution
+1 Solution
 2 Loops
 3 Pattern
 4 List
